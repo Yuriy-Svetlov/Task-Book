@@ -10,7 +10,7 @@ return [
 	"password" => $user_data["password"],
 	"port" => $user_data["port"],
 	"charset" => "utf8",
-	"flags" => MYSQLI_CLIENT_SSL,
+	"flags" => MYSQLI_CLIENT_SSL, // MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT
 
 	/*
     'ssl_set' => [

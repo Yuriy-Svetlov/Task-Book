@@ -10,7 +10,7 @@ $done__BUT.click(function(e) {
 
 function sendRequest__Status__PUT(){
 	const 
-		url = 'http://'+window.location.hostname+'/api/task/status';
+		url = '//'+window.location.hostname+'/api/task/status';
 	
 	var data = {};
 	data.id = arr_checked;

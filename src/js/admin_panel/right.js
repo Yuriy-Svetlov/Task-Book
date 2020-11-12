@@ -13,7 +13,7 @@ var number_page = 1,
 
 // GET data
 function sendRequest__GET(num_page, sort_p, sort_t){
-	const url = 'http://'+window.location.hostname+'/api/task';
+	const url = '//'+window.location.hostname+'/api/task';
 	const data = {};
 	data.number_page = num_page;
 	data.sort_property = sort_p;

@@ -12,7 +12,7 @@ $task_submit__BUT.click(function() {
 
 
 function sendRequest__POST(){
-	const url = 'http://'+window.location.hostname+'/api/task';
+	const url = '//'+window.location.hostname+'/api/task';
 	var data = $('#create_task__FORM').serializeArray();
 
 	$.post(url, data, function(result){

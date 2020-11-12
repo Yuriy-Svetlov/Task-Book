@@ -11,7 +11,7 @@ $submit__BUT.click(function() {
 
 
 function sendRequest__POST(){
-	const url = 'http://'+window.location.hostname+'/api/login';
+	const url = '//'+window.location.hostname+'/api/login';
 	var data = $('#login__FORM').serializeArray();
 	//console.log(data);
 
@@ -23,7 +23,7 @@ function sendRequest__POST(){
 		}else{
 			console.log(result.login);
 			if(result.login == 'successful'){
-				const url_admin_panel = 'http://'+window.location.hostname+'/admin_panel';
+				const url_admin_panel = '//'+window.location.hostname+'/admin_panel';
 				window.location.replace(url_admin_panel);
 			}
 		}

@@ -14,7 +14,7 @@ $task_submit__BUT.click(function() {
 
 function sendRequest__PUT(){
 	const 
-		url = 'http://'+window.location.hostname+'/api/task',
+		url = '//'+window.location.hostname+'/api/task',
 		id = $edit_task__FORM.attr('data-id');
 	var 
 		data = $('#edit_task__FORM').serializeArray();
