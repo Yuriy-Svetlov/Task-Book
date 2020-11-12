@@ -19,12 +19,12 @@ $approot = \approot\App::getAppRoot();
 
 	    <?php
 	    // Left side
-	    require __DIR__ . './index/left.php';
+	    require __DIR__ . '/index/left.php';
 	    ?>
 
 	    <?php
 	    // Right side
-	    require __DIR__ . './index/right.php';
+	    require __DIR__ . '/index/right.php';
 	    ?>
 
 	</div>
