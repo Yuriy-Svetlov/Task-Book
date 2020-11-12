@@ -21,13 +21,13 @@
 				<form style="text-align: left; padding: 16px 0px 0px 0px; color: rgba(0, 0, 0, 0.54);" id="login__FORM">
 					  <div class="form-group">
 						    <label for="login__INPUT">Login</label>
-						    <input name="login__INPUT" type="text" class="form-control" id="login__INPUT" placeholder="Enter your login" required>
+						    <input name="login__INPUT" type="text" class="form-control" id="login__INPUT" placeholder="Enter your login «admin»" required>
 						    <div class="invalid-feedback"></div>
 					  </div>
 
 					  <div class="form-group">
 					        <label for="password__INPUT">Password</label>
-					        <input name="password__INPUT" type="text" class="form-control" id="password__INPUT" placeholder="Enter your password" autocomplete="off"  required>
+					        <input name="password__INPUT" type="text" class="form-control" id="password__INPUT" placeholder="Enter your password «123»" autocomplete="off"  required>
 					        <div class="invalid-feedback"></div>
 					  </div>
 
