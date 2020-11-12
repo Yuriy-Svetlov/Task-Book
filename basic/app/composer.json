@@ -1,0 +1,25 @@
+{
+    "name": "framework-php-1/framework-php-1",
+    "description": "PHP framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Yuri Svetlov",
+            "email": "vironirikardo@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",    
+    "require": {
+        "webmozart/assert": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "../",
+            "approot\\": ""
+        }
+    },
+	"config": {
+	    "optimize-autoloader": true,
+	    "apcu-autoloader": true
+	}    	
+}
